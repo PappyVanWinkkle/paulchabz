@@ -43,9 +43,31 @@
                 </ul>
             </section>
             <section class="main-paragraph">
-                <p>Self directed and motivated Web Developer with experience in Javascript ES6, CSS, HTML, React and Redux, Nodejs also build tools such as Webpack, Babel and Version control with Git and Github Very adaptable and flexible excited to learn and contribute to many tasks. A strong passion for Web and Mobile technologies excited by new technologies such as React VR, Progressive Web Apps and Blockchain. A desire and willingness to learn and be the best.
+                <p>Self directed and motivated Web Developer with experience in Javascript ES6, CSS, HTML, React and Redux,
+                    Nodejs also build tools such as Webpack, Babel and Version control with Git and Github Very adaptable
+                    and flexible excited to learn and contribute to many tasks. A strong passion for Web and Mobile technologies
+                    excited by new technologies such as React VR, Progressive Web Apps and Blockchain. A desire and willingness
+                    to learn and be the best.
                 </p>
             </section>
+            <form method="post" action="#">
+                <div class="field">
+                    <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="field">
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+
+                <div class="field">
+                    <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                </div>
+
+                <ul class="actions">
+                    <li>
+                        <a href="mailto:paulwchabz@gmail.com" class="button">Contact Me</a>
+                    </li>
+                </ul>
+            </form>
             <footer>
                 <ul class="icons">
                     <li>
@@ -71,7 +93,7 @@
     <!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
     <script>
         if ('addEventListener' in window) {
-            window.addEventListener('load', function() {
+            window.addEventListener('load', function () {
                 document.body.className = document.body.className.replace(/\bis-loading\b/, '');
             });
             document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
